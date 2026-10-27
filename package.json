@@ -1,0 +1,12 @@
+{
+  "name": "fumindo-asset-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fumindo Asset Management - NestJS + Vue.js CRUD",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "npm --prefix backend run start:dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  }
+}
